@@ -10,7 +10,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm">
               Diseñado y desarrollado con <span className="text-red-500">❤</span> por{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-teal-400 font-medium">
-                Tu Nombre
+                Diana Bernardos 
               </span>
             </p>
           </div>

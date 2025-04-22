@@ -20,25 +20,25 @@ export default function SkillsSection() {
     {
       category: "Diseño UI/UX",
       icon: <Palette className="h-6 w-6 text-pink-400" />,
-      items: ["Figma", "Adobe XD", "Diseño Responsivo", "Prototipado", "Design Systems"],
+      items: ["Figma", "Diseño Responsivo", "Prototipado", "Design Systems","Interacción"],
       color: "from-pink-500 to-pink-700",
     },
     {
       category: "Inteligencia Artificial",
       icon: <Bot className="h-6 w-6 text-blue-400" />,
-      items: ["Generación de Imágenes", "Chatbots", "Análisis de Datos", "Automatización"],
+      items: ["Generación de Imágenes", "Chatbots", "Análisis de Datos", "Automatización","IA Generativa"],
       color: "from-blue-500 to-blue-700",
     },
     {
       category: "Bases de Datos",
       icon: <Database className="h-6 w-6 text-amber-400" />,
-      items: ["MongoDB", "PostgreSQL", "Firebase", "Supabase", "ORM"],
+      items: ["MongoDB","MySql", "PostgreSQL", "Firebase", "Supabase", "ORM"],
       color: "from-amber-500 to-amber-700",
     },
     {
       category: "Despliegue",
       icon: <Globe className="h-6 w-6 text-green-400" />,
-      items: ["Vercel", "Netlify", "Docker", "CI/CD", "AWS"],
+      items: ["Vercel", "Netlify", "Docker","Render", "CI/CD", "AWS"],
       color: "from-green-500 to-green-700",
     },
   ]

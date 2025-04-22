@@ -15,7 +15,7 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
         <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            <span className="block">Desarrollo Fullstack</span>
+            <span className="block">Hola, Soy Diana Bernardos. Desarrollo Fullstack</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-teal-400">
               & Diseño UI con IA
             </span>

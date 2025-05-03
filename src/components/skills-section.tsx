@@ -8,7 +8,7 @@ export default function SkillsSection() {
     {
       category: "Desarrollo Frontend",
       icon: <Code className="h-6 w-6 text-purple-400" />,
-      items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      items: ["PHP","Java","React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
       color: "from-purple-500 to-purple-700",
     },
     {
@@ -26,19 +26,19 @@ export default function SkillsSection() {
     {
       category: "Inteligencia Artificial",
       icon: <Bot className="h-6 w-6 text-blue-400" />,
-      items: ["Generación de Imágenes", "Chatbots", "Análisis de Datos", "Automatización"],
+      items: ["Generación de Imágenes", "Chatbots", "Automatizaciónes","IA Generativa","Machine Learning"],
       color: "from-blue-500 to-blue-700",
     },
     {
       category: "Bases de Datos",
       icon: <Database className="h-6 w-6 text-amber-400" />,
-      items: ["MongoDB", "PostgreSQL", "Firebase", "Supabase", "ORM"],
+      items: ["MongoDB", "PostgreSQL", "Firebase", "Supabase","MySql"],
       color: "from-amber-500 to-amber-700",
     },
     {
       category: "Despliegue",
       icon: <Globe className="h-6 w-6 text-green-400" />,
-      items: ["Vercel", "Netlify", "Docker", "CI/CD", "AWS"],
+      items: ["Vercel", "Netlify", "Docker", "Render", "AWS"],
       color: "from-green-500 to-green-700",
     },
   ]

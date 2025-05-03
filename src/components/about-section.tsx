@@ -87,13 +87,13 @@ export default function AboutSection() {
               <div className="space-y-4">
                 <div className="bg-purple-900/30 backdrop-blur-sm p-6 rounded-xl h-40 flex items-center justify-center border border-purple-800/50">
                   <div className="text-center">
-                    <h4 className="text-4xl font-bold text-purple-400">5+</h4>
+                    <h4 className="text-4xl font-bold text-purple-400">3+</h4>
                     <p className="text-sm text-gray-300 mt-2">Años de Experiencia</p>
                   </div>
                 </div>
                 <div className="bg-teal-900/30 backdrop-blur-sm p-6 rounded-xl h-48 flex items-center justify-center border border-teal-800/50">
                   <div className="text-center">
-                    <h4 className="text-4xl font-bold text-teal-400">30+</h4>
+                    <h4 className="text-4xl font-bold text-teal-400">10+</h4>
                     <p className="text-sm text-gray-300 mt-2">Proyectos Completados</p>
                   </div>
                 </div>
@@ -101,8 +101,8 @@ export default function AboutSection() {
               <div className="space-y-4">
                 <div className="bg-pink-900/30 backdrop-blur-sm p-6 rounded-xl h-48 flex items-center justify-center border border-pink-800/50">
                   <div className="text-center">
-                    <h4 className="text-4xl font-bold text-pink-400">15+</h4>
-                    <p className="text-sm text-gray-300 mt-2">Clientes Satisfechos</p>
+                    <h4 className="text-4xl font-bold text-pink-400">100%</h4>
+                    <p className="text-sm text-gray-300 mt-2">Personalización</p>
                   </div>
                 </div>
                 <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl h-40 flex items-center justify-center border border-gray-700">

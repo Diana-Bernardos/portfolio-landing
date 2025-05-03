@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone, MapPin, Send } from "lucide-react"
+import { Mail, Linkedin, MapPin, Send } from "lucide-react"
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -38,10 +38,10 @@ export default function ContactSection() {
       link: "mailto:contacto@tudominio.com",
     },
     {
-      icon: <Phone className="h-6 w-6 text-teal-400" />,
-      title: "Teléfono",
-      value: "+34 123 456 789",
-      link: "tel:+34123456789",
+      icon: <Linkedin className="h-6 w-6 text-teal-400" />,
+      title: "Linkedin",
+      value: "https://www.linkedin.com/in/diana-bernardos-moraleda-536378223",
+      link: "Diana Bernardos",
     },
     {
       icon: <MapPin className="h-6 w-6 text-pink-400" />,

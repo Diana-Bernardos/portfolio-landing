@@ -56,6 +56,7 @@ export default function Navbar() {
           ))}
           <Button className="bg-gradient-to-r from-purple-500 to-teal-500 hover:from-purple-600 hover:to-teal-600 text-white">
             Descargar CV
+            <link rel="stylesheet" href="/path/to/your/cv.css" />
           </Button>
         </div>
 

@@ -26,7 +26,8 @@ export default function ProjectsSection() {
       technologies: ["React", "Node.js", "MySql","Ollama","Tailwind CSS"],
       demoLink: "#",
       codeLink: "#",
-      icon: <Code className="h-5 w-5" />,
+      
+      icon: <Bot className="h-5 w-5" />,
     },
     {
       id: 2,
@@ -48,7 +49,7 @@ export default function ProjectsSection() {
       technologies: ["React", "Ollama", "Tailwind CSS "],
       demoLink: "#",
       codeLink: "#",
-      icon: <Palette className="h-5 w-5" />,
+      icon: <Bot className="h-5 w-5" />,
     },
     {
       id: 4,
@@ -59,7 +60,7 @@ export default function ProjectsSection() {
       technologies: ["React Native", "Firebase", "TensorFlow.js"],
       demoLink: "#",
       codeLink: "#",
-      icon: <Bot className="h-5 w-5" />,
+      icon: <Code className="h-5 w-5" />,
     },
     {
       id: 5,
@@ -81,7 +82,19 @@ export default function ProjectsSection() {
       technologies: ["Python", "GPT-4", "React"],
       demoLink: "#",
       codeLink: "#",
-      icon: <Bot className="h-5 w-5" />,
+      icon: <Code className="h-5 w-5" />,
+    },
+
+    {
+      id: 7,
+      title: "Rick and Morty API",
+      description: "Herramienta que utiliza IA para generar contenido para blogs, redes sociales y más.",
+      image: "/3255.webp?height=400&width=600",
+      tags: ["development", "ai"],
+      technologies: ["React", "JS", "Scss"],
+      demoLink: "https://rick-and-morty-nu-eight.vercel.app/",
+      codeLink: "https://rick-and-morty-nu-eight.vercel.app/",
+      icon: <Code className="h-5 w-5" />,
     },
   ]
 

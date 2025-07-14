@@ -34,14 +34,14 @@ export default function ContactSection() {
     {
       icon: <Mail className="h-6 w-6 text-purple-400" />,
       title: "Email",
-      value: "contacto@tudominio.com",
-      link: "mailto:contacto@tudominio.com",
+      value: "dianabernardosm@gmail.com",
+      link: "mailto:dianabernardosm@gmail.com",
     },
     {
       icon: <Linkedin className="h-6 w-6 text-teal-400" />,
       title: "Linkedin",
       value: "https://www.linkedin.com/in/diana-bernardos-moraleda-536378223",
-      link: "Diana Bernardos",
+      link: "https://www.linkedin.com/in/diana-bernardos-moraleda-536378223",
     },
     {
       icon: <MapPin className="h-6 w-6 text-pink-400" />,

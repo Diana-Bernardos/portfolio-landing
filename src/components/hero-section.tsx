@@ -17,7 +17,7 @@ export default function HeroSection() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             <span className="block">Desarrolladora Fullstack</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-teal-400">
-              & Diseño UI con IA
+              & Interaction Design UI con IA
             </span>
           </h1>
           <p className="text-gray-300 text-lg md:text-xl mb-8">
@@ -28,6 +28,7 @@ export default function HeroSection() {
           <div className="flex flex-wrap gap-4">
             <Button className="bg-gradient-to-r from-purple-500 to-teal-500 hover:from-purple-600 hover:to-teal-600 text-white px-6 py-6">
               Ver Proyectos
+
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button
@@ -106,7 +107,45 @@ export default function HeroSection() {
               <span>Diseño UI/UX</span>
             </div>
           </motion.div>
+          <motion.div
+            initial={{ y: -20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.10,
+              repeat: Number.POSITIVE_INFINITY,
+              repeatType: "reverse",
+              repeatDelay: 3,
+            }}
+            className="absolute bottom-10 -left-5 bg-gray-800/80 backdrop-blur-sm p-3 rounded-lg shadow-lg"
+          >
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
+              <span>IA</span>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: -20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.12,
+              repeat: Number.POSITIVE_INFINITY,
+              repeatType: "reverse",
+              repeatDelay: 3.5,
+            }}
+            className="absolute top-20 -right-5 bg-gray-800/80 backdrop-blur-sm p-3 rounded-lg shadow-lg"
+          >
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-teal-500 rounded-full"></div>
+              <span>Interaction Design</span>
+            </div>
+          </motion.div>
+
+          
         </motion.div>
+        
       </div>
     </section>
   )

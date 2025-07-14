@@ -50,7 +50,7 @@ export default function AboutSection() {
             <h3 className="text-2xl font-bold mb-4">Mi Enfoque</h3>
             <p className="text-gray-300 mb-6">
               Soy una profesional con un perfil híbrido que combina habilidades técnicas de desarrollo fullstack con un
-              ojo creativo para el diseño UI. Mi pasión es crear soluciones digitales que no solo funcionen
+              ojo creativo para el diseño UI e Interaction Design. Mi pasión es crear soluciones digitales que no solo funcionen
               perfectamente sino que también ofrezcan experiencias visuales impactantes.
             </p>
             <p className="text-gray-300 mb-6">

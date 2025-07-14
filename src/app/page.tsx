@@ -9,7 +9,7 @@ import Navbar from "@/components/navbar"
 
 export const metadata: Metadata = {
   title: "Portfolio | Desarrolladora Fullstack & Diseñadora UI",
-  description: "Portfolio profesional mostrando proyectos de desarrollo fullstack y diseño UI con IA",
+  description: "Portfolio profesional mostrando proyectos de desarrollo fullstack y diseño UI  e Interaction Design con IA",
 }
 
 export default function Home() {

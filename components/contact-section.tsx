@@ -34,8 +34,8 @@ export default function ContactSection() {
     {
       icon: <Mail className="h-6 w-6 text-purple-400" />,
       title: "Email",
-      value: "contacto@tudominio.com",
-      link: "mailto:contacto@tudominio.com",
+      value: "dianabernardosm@gmail.com",
+      link: "mailto:dianabernardosm@gmail.com",
     },
     {
       icon: <Linkedin className="h-6 w-6 text-teal-400" />,
